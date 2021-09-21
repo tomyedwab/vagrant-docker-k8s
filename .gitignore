@@ -1,0 +1,8 @@
+# Secrets are stored here. Do not check in!
+secrets/
+
+# Configuration data for kubectl. Also do not check in!
+configs/config
+
+# Vagrant sticks stuff in here which we don't care about.
+.vagrant
