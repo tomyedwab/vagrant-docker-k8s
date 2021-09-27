@@ -21,12 +21,11 @@ Vagrant.configure("2") do |config|
     #vb.gui = true
  
     # Customize the amount of memory on the VM:
-    vb.memory = "8192"
+    vb.memory = "6144"
 
     # Don't waste effort checking for guest additions
     vb.check_guest_additions = false
   end
-  #
 
   # Provision with a shell script.
   config.vm.provision "shell", path: "provision.bash"
